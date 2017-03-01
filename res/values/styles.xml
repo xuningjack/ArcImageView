@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <!-- 圆形背景图 -->
+    <style name="avatar">
+        <item name="android:background">@drawable/default_round_avatar2</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+    
+    <style name="round_avatar40" parent="avatar">
+        <item name="android:background">@drawable/default_round_avatar2</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    
+    <!-- =======四角圆角头像  add by Jack 20130905=========== -->
+    <style name="roundconner_avatar">
+        <item name="android:padding">2dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="roundconner_avatar40" parent="roundconner_avatar">
+        <item name="android:background">@drawable/round_conner_bg</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    
+    <style name="roundconner_avatar54" parent="roundconner_avatar">
+        <item name="android:background">@drawable/round_conner_bg</item>
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+    </style>
+</resources>

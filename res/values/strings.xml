@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_ArcAvatarImageView</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 格式化时间 -->
+    <string name="just_now">刚刚</string>
+    <string name="minute_before">分钟前</string>
+    <string name="hour_before">小时前</string>
+    <string name="day_before">天前</string>
+    <string name="no_sdcard_string">您没有安装SD卡哦！</string>
+    <string name="no_space_string">SD卡存储空间不足！</string>
+
+</resources>
